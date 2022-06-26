@@ -11,5 +11,5 @@ clingo calendar.cl -t 8
 
 ### Link slides di presentazione
 ```
-https://docs.google.com/presentation/d/13S8CoDo5IFBfqHNVrvCG93rtrTC_9ikhPv1X8IMZOJo/edit#slide=id.p
+https://docs.google.com/presentation/d/13S8CoDo5IFBfqHNVrvCG93rtrTC_9ikhPv1X8IMZOJo/edit?usp=sharing
 ```
