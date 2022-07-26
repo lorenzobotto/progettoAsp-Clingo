@@ -5,7 +5,7 @@ Progetto in ASP (Clingo) per il corso di Intelligenza Artificiale e Laboratorio 
 
 ### Calendario da 20 squadre (calendar.cl)
 
-Viene utilizzato il paradigma ASP (Answer Set Programming) per la generazione con clingo del calendario di una competizione sportiva, in particolare
+Viene utilizzato il paradigma ASP (Answer Set Programming) per la generazione con Clingo del calendario di una competizione sportiva, in particolare
 di un campionato avente le seguenti caratteristiche:
 - sono iscritte 20 squadre;
 - il campionato prevede 38 giornate, 19 di andata e 19 di ritorno NON
