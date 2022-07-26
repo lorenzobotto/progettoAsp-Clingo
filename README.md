@@ -1,5 +1,5 @@
 # progettoAsp-Clingo
-Progetto in ASP (Clingo) per IA Lab 2022
+Progetto in ASP (Clingo) per il corso di Intelligenza Artificiale e Laboratorio - Unito 2022
 
 ## Descrizione progetto
 
@@ -16,32 +16,28 @@ gioca gli incontri in casa;
 - ogni squadra affronta due volte tutte le altre squadre, una volta in casa e una
 volta fuori casa, ossia una volta nella propria città di riferimento e una volta in
 quella dell’altra squadra;
-- Due delle 20 squadre fanno riferimento alla medesima città e condividono la
+- otto delle 20 squadre fanno riferimento alla medesima città e condividono la
 stessa struttura di gioco, quindi non possono giocare entrambe in casa nella
-stessa giornata. Ovviamente, fanno eccezione le due giornate in cui giocano
-l’una contro l’altra (derby).
-
-Vincoli Facoltativi:
+stessa giornata. Ovviamente, fanno eccezione le giornate in cui giocano
+l’una contro l’altra (quattro derby);
 - ciascuna squadra non deve giocare mai più di due partite consecutive in casa o fuori casa;
-- ci sono 2 o più derby;
 - la distanza tra una coppia di gare di andata e ritorno è di almeno 10 giornate, ossia se SquadraA vs SquadraB è programmata per la giornata 12, il ritorno 
 SquadraB vs SquadraA verrà schedulato non prima dalla giornata 22.
 
-### Calendario da 14 squadre (calendar.cl)
+### Calendario da 14 squadre (calendarMini.cl)
 
 Per il calendario a 14 squadre (versione ridotta per questioni di tempistiche) sono stati modificati i seguenti vincoli:
 - si prevede UN solo derby;
 - distanza tra giornata di andata e giornata di ritorno di almeno 8 giornate.
 
-## Clingo
-Se si vuole eseguire con meno squadre modificare i parametri necessari.
+## Come eseguire
 
-Per eseguire il calendario con 20 squadre, 4 derby (ci mette più di 30 minuti) e 8 threads:
+Per eseguire il calendario con 20 squadre, 4 derby (ci mette più di 30 minuti), utilizzando 8 threads:
 ```
 clingo calendar.cl -t 8
 ```
 
-### Link slides di presentazione
+Per eseguire il calendario con 14 squadre, 1 derby, utilizzando 8 threads:
 ```
-https://docs.google.com/presentation/d/13S8CoDo5IFBfqHNVrvCG93rtrTC_9ikhPv1X8IMZOJo/edit?usp=sharing
+clingo calendarMini.cl -t 8
 ```
