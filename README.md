@@ -1,5 +1,5 @@
 # progettoAsp-Clingo
-Progetto in ASP (Clingo) per il corso di Intelligenza Artificiale e Laboratorio - Unito 2022
+Progetto in ASP (Clingo) per il corso di Intelligenza Artificiale e Laboratorio - Unito 2022.
 
 ## Descrizione progetto
 
