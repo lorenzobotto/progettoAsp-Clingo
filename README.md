@@ -26,11 +26,14 @@ SquadraB vs SquadraA verrà schedulato non prima dalla giornata 22.
 
 ### Calendario da 14 squadre (calendarMini.cl)
 
-Per il calendario a 14 squadre (versione ridotta per questioni di tempistiche) sono stati modificati i seguenti vincoli:
+Per il calendario a 14 squadre (versione ridotta per questioni di tempistiche) si utilizzando le stesse caratteristiche (vincoli)
+del calendario a 20 squadre, con i seguenti vincoli modificati:
 - si prevede UN solo derby;
 - distanza tra giornata di andata e giornata di ritorno di almeno 8 giornate.
 
 ## Come eseguire
+
+Installare Clingo da https://potassco.org/clingo/. Una volta installato si può proseguire con le esecuzioni.
 
 Per eseguire il calendario con 20 squadre, 4 derby (ci mette più di 30 minuti), utilizzando 8 threads:
 ```
