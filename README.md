@@ -46,4 +46,6 @@ clingo calendarMini.cl -t 8
 ```
 
 ## Video esecuzione del progetto
-[![Esecuzione Clingo](https://img.youtube.com/vi/Yx1lK06EtuQ/0.jpg)](https://www.youtube.com/watch?v=Yx1lK06EtuQ "Esecuzione Clingo")
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Yx1lK06EtuQ
+" target="_blank"><img src="http://img.youtube.com/vi/Yx1lK06EtuQ/0.jpg" 
+alt="Esecuzione Clingo" width="400" border="10" /></a>
