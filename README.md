@@ -44,3 +44,6 @@ Per eseguire il calendario con 14 squadre, 1 derby, utilizzando 8 threads:
 ```
 clingo calendarMini.cl -t 8
 ```
+
+## Video esecuzione del progetto
+[![Esecuzione Clingo](https://img.youtube.com/vi/Yx1lK06EtuQ/0.jpg)](https://www.youtube.com/watch?v=Yx1lK06EtuQ "Esecuzione Clingo")
