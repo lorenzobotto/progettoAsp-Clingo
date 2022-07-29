@@ -23,11 +23,11 @@ squadra(
 
 citta(milan, milano).
 citta(napoli, napoli).
-citta(inter, londra).
+citta(inter, milano).
 citta(juventus, torino).
 citta(atalanta, bergamo).
 citta(roma, roma).
-citta(lazio, monaco).
+citta(lazio, roma).
 citta(fiorentina, firenze).
 citta(sassuolo, sassuolo).
 citta(verona, verona).
@@ -39,7 +39,7 @@ citta(sampdoria, genova).
 citta(spezia, laspezia).
 citta(cagliari, cagliari).
 citta(venezia, venezia).
-citta(genoa, barcellona).
+citta(genoa, genova).
 citta(salernitana, salerno).
 
 giornataAndata(1..19).
