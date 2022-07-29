@@ -31,6 +31,8 @@ del calendario a 20 squadre, con i seguenti vincoli modificati:
 - si prevede UN solo derby;
 - distanza tra giornata di andata e giornata di ritorno di almeno 8 giornate.
 
+**Disclaimer: Tutti i dati inseriti nel database da me sono dati di prova, talvolta casuali e talvolta reali a scopo di prova. Non utilizzare alcun dato per nessun scopo particolare. Non mi assumo nessuna responsabilità.**
+
 ## Come eseguire
 
 Installare Clingo da https://potassco.org/clingo/. Oppure installarlo tramite conda:
