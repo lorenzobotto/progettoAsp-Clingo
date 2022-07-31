@@ -35,13 +35,13 @@ del calendario a 20 squadre, con i seguenti vincoli modificati:
 
 ## Come eseguire
 
-Installare Clingo da https://potassco.org/clingo/. Oppure installarlo tramite conda:
+Installare Clingo da https://potassco.org/clingo/. Oppure installarlo tramite conda da riga di comando:
 ```
 conda install -c potassco clingo
 ```
 Una volta installato si può proseguire con le esecuzioni.
 
-Per eseguire il calendario con 20 squadre, 4 derby (ci mette più di 30 minuti), utilizzando 8 threads:
+Da riga di comando, per eseguire il calendario con 20 squadre, 4 derby (ci mette più di 30 minuti), utilizzando 8 threads:
 ```
 clingo calendar.cl -t 8
 ```
